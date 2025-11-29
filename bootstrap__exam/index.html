@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Bites – Regular Menu Pack</title>
+
+  <!-- Responsive -->
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <!-- Google Font -->
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+    rel="stylesheet"
+  />
+
+  <!-- Bootstrap 5 -->
+  <link
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+    rel="stylesheet"
+  />
+
+  <!-- Font Awesome (for icons) -->
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+  />
+
+  <!-- Your external CSS -->
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- NAVBAR -->
+  <nav class="navbar navbar-expand-lg sticky-top shadow-sm">
+    <div class="container">
+      <a class="navbar-brand" href="#">
+        <span class="brand-icon">
+          <i class="fa-solid fa-utensils"></i>
+        </span>
+        Bites
+      </a>
+
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-bs-toggle="collapse"
+        data-bs-target="#mainNavbar"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="mainNavbar">
+        <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" href="#">About Us</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Menu</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Reviews</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Blog</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Contacts</a>
+          </li>
+        </ul>
+
+        <button class="btn-reserve">
+          Reserve Table
+        </button>
+      </div>
+    </div>
+  </nav>
+
+  <!-- MENU SECTION -->
+  <section class="menu-section container pb-5">
+    <div class="text-center mb-4">
+      <h2 class="fw-semibold">Our Regular Menu Pack</h2>
+      <p class="text-muted mb-3">
+        Choose your favourite meal from our chef’s special selection.
+      </p>
+    </div>
+
+    <!-- Category Buttons -->
+    <div class="d-flex justify-content-center flex-wrap mb-4">
+      <button class="category-btn active">Special Foods</button>
+      <button class="category-btn">Mexican</button>
+      <button class="category-btn">Italian</button>
+      <button class="category-btn">Japanese</button>
+      <button class="category-btn">Drinks</button>
+      <button class="category-btn">Lunch</button>
+      <button class="category-btn">More Item +</button>
+    </div>
+
+    <!-- FOOD CARDS -->
+    <div class="row g-4">
+      <!-- Card 1 -->
+      <div class="col-sm-6 col-lg-3">
+        <div class="card food-card h-100 text-center">
+          <img
+            src="https://images.pexels.com/photos/1279330/pexels-photo-1279330.jpeg?auto=compress&cs=tinysrgb&w=600"
+            alt="Pasta"
+            class="food-img"
+          />
+          <div class="card-body">
+            <h5 class="food-title">Pasta</h5>
+            <div class="rating mb-1">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-regular fa-star"></i>
+            </div>
+            <p class="food-desc">
+              Pasta is a type of food typically made from an unleavened dough.
+            </p>
+            <div class="food-footer">
+              <span class="price">$35.00</span>
+              <button class="btn-add">Add To Cart</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Card 2 -->
+      <div class="col-sm-6 col-lg-3">
+        <div class="card food-card h-100 text-center">
+          <img
+            src="https://images.pexels.com/photos/1583884/pexels-photo-1583884.jpeg?auto=compress&cs=tinysrgb&w=600"
+            alt="French Fries"
+            class="food-img"
+          />
+          <div class="card-body">
+            <h5 class="food-title">French Fries</h5>
+            <div class="rating mb-1">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star-half-stroke"></i>
+              <i class="fa-regular fa-star"></i>
+            </div>
+            <p class="food-desc">
+              Crispy golden potato fries deep-fried and lightly salted.
+            </p>
+            <div class="food-footer">
+              <span class="price">$55.00</span>
+              <button class="btn-add">Add To Cart</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Card 3 -->
+      <div class="col-sm-6 col-lg-3">
+        <div class="card food-card h-100 text-center">
+          <img
+            src="https://images.pexels.com/photos/461198/pexels-photo-461198.jpeg?auto=compress&cs=tinysrgb&w=600"
+            alt="Chicken Shawarma"
+            class="food-img"
+          />
+          <div class="card-body">
+            <h5 class="food-title">Chicken Shawarma</h5>
+            <div class="rating mb-1">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-regular fa-star"></i>
+            </div>
+            <p class="food-desc">
+              Grilled chicken wrapped with fresh veggies and creamy sauce.
+            </p>
+            <div class="food-footer">
+              <span class="price">$35.00</span>
+              <button class="btn-add">Add To Cart</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Card 4 -->
+      <div class="col-sm-6 col-lg-3">
+        <div class="card food-card h-100 text-center">
+          <img
+            src="https://images.pexels.com/photos/128865/pexels-photo-128865.jpeg?auto=compress&cs=tinysrgb&w=600"
+            alt="Fish Curry"
+            class="food-img"
+          />
+          <div class="card-body">
+            <h5 class="food-title">Fish Curry</h5>
+            <div class="rating mb-1">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-regular fa-star"></i>
+            </div>
+            <p class="food-desc">
+              Fresh fish cooked in a rich, spicy and tangy curry sauce.
+            </p>
+            <div class="food-footer">
+              <span class="price">$35.00</span>
+              <button class="btn-add">Add To Cart</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Card 5 -->
+      <div class="col-sm-6 col-lg-3">
+        <div class="card food-card h-100 text-center">
+          <img
+            src="https://images.pexels.com/photos/1279330/pexels-photo-1279330.jpeg?auto=compress&cs=tinysrgb&w=600"
+            alt="Pasta"
+            class="food-img"
+          />
+          <div class="card-body">
+            <h5 class="food-title">Pasta</h5>
+            <div class="rating mb-1">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-regular fa-star"></i>
+            </div>
+            <p class="food-desc">
+              Classic creamy tomato based pasta topped with herbs.
+            </p>
+            <div class="food-footer">
+              <span class="price">$35.00</span>
+              <button class="btn-add">Add To Cart</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Card 6 -->
+      <div class="col-sm-6 col-lg-3">
+        <div class="card food-card h-100 text-center">
+          <img
+            src="https://images.pexels.com/photos/1583884/pexels-photo-1583884.jpeg?auto=compress&cs=tinysrgb&w=600"
+            alt="French Fries"
+            class="food-img"
+          />
+          <div class="card-body">
+            <h5 class="food-title">French Fries</h5>
+            <div class="rating mb-1">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star-half-stroke"></i>
+              <i class="fa-regular fa-star"></i>
+            </div>
+            <p class="food-desc">
+              Served with ketchup and cheese dip on the side.
+            </p>
+            <div class="food-footer">
+              <span class="price">$55.00</span>
+              <button class="btn-add">Add To Cart</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Card 7 -->
+      <div class="col-sm-6 col-lg-3">
+        <div class="card food-card h-100 text-center">
+          <img
+            src="https://images.pexels.com/photos/461198/pexels-photo-461198.jpeg?auto=compress&cs=tinysrgb&w=600"
+            alt="Chicken Shawarma"
+            class="food-img"
+          />
+          <div class="card-body">
+            <h5 class="food-title">Chicken Shawarma</h5>
+            <div class="rating mb-1">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-regular fa-star"></i>
+            </div>
+            <p class="food-desc">
+              Soft pita bread stuffed with juicy marinated chicken.
+            </p>
+            <div class="food-footer">
+              <span class="price">$35.00</span>
+              <button class="btn-add">Add To Cart</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Card 8 -->
+      <div class="col-sm-6 col-lg-3">
+        <div class="card food-card h-100 text-center">
+          <img
+            src="https://images.pexels.com/photos/128865/pexels-photo-128865.jpeg?auto=compress&cs=tinysrgb&w=600"
+            alt="Fish Curry"
+            class="food-img"
+          />
+          <div class="card-body">
+            <h5 class="food-title">Fish Curry</h5>
+            <div class="rating mb-1">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-regular fa-star"></i>
+            </div>
+            <p class="food-desc">
+              Aromatic curry cooked with coconut milk and fresh spices.
+            </p>
+            <div class="food-footer">
+              <span class="price">$35.00</span>
+              <button class="btn-add">Add To Cart</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="container">
+      <div class="row gy-4">
+        <div class="col-md-4">
+          <h6>Subscribe Our Newsletter</h6>
+          <p class="text-muted mb-2">Enter your email to get special offers.</p>
+          <div class="d-flex">
+            <input
+              type="email"
+              class="newsletter-input"
+              placeholder="Enter your email"
+            />
+            <button class="newsletter-btn">
+              <i class="fa-solid fa-paper-plane"></i>
+            </button>
+          </div>
+          <div class="social-icons mt-3">
+            <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+            <a href="#"><i class="fa-brands fa-twitter"></i></a>
+            <a href="#"><i class="fa-brands fa-youtube"></i></a>
+          </div>
+        </div>
+
+        <div class="col-6 col-md-2">
+          <h6>Service</h6>
+          <ul class="p-0 m-0">
+            <li>Online Order</li>
+            <li>Pre-reservation</li>
+            <li>24/7 Service</li>
+            <li>Foodie Place</li>
+            <li>Super Chefs</li>
+          </ul>
+        </div>
+
+        <div class="col-6 col-md-2">
+          <h6>Quick Links</h6>
+          <ul class="p-0 m-0">
+            <li><a href="#">Menu</a></li>
+            <li><a href="#">Reviews</a></li>
+            <li><a href="#">Blogs</a></li>
+            <li><a href="#">Reserve Table</a></li>
+            <li><a href="#">Order Foods</a></li>
+          </ul>
+        </div>
+
+        <div class="col-6 col-md-2">
+          <h6>About</h6>
+          <ul class="p-0 m-0">
+            <li><a href="#">Our Story</a></li>
+            <li><a href="#">Benefits</a></li>
+            <li><a href="#">Career</a></li>
+            <li><a href="#">Our Chefs</a></li>
+          </ul>
+        </div>
+
+        <div class="col-6 col-md-2">
+          <h6>Help</h6>
+          <ul class="p-0 m-0">
+            <li><a href="#">Contact</a></li>
+            <li><a href="#">Support</a></li>
+            <li><a href="#">FAQ</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="copyright">
+        © 2025 Bites Restaurant. All rights reserved.
+      </div>
+    </div>
+  </footer>
+
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
