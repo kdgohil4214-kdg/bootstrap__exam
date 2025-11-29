@@ -7,6 +7,9 @@ It showcases a modern food menu with category filters, stylish food cards, ratin
 
 https://statuesque-semifreddo-b8848a.netlify.app/
 
+<img width="1920" height="1382" alt="image" src="https://github.com/user-attachments/assets/8aa15317-f3e8-43a7-93b1-9d6eba34ff5a" />
+
+
 ## 🔥 Features
 
 - Responsive **navigation bar** with brand logo and “Reserve Table” button  
@@ -48,4 +51,3 @@ Bites-Regular-Menu-Pack/
 
 
 
-<img width="1920" height="1382" alt="image" src="https://github.com/user-attachments/assets/c1fc1909-aa63-457d-b011-c53ef603b1f7" />
