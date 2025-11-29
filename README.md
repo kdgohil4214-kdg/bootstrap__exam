@@ -5,6 +5,8 @@ It showcases a modern food menu with category filters, stylish food cards, ratin
 
 ---
 
+https://statuesque-semifreddo-b8848a.netlify.app/
+
 ## 🔥 Features
 
 - Responsive **navigation bar** with brand logo and “Reserve Table” button  
